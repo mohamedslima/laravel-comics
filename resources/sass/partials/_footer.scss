@@ -2,7 +2,7 @@
     background-image: url("/images/footer-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 4rem;
+    padding: 4rem 0;
 
     .container {
         display: flex;
@@ -53,9 +53,18 @@
         align-items: center;
         display: flex;
 
+        button.sign-up_button {
+            padding: 1.2rem 1.7rem;
+            border-color: blue;
+            text-transform: uppercase;
+            background-color: #303030;
+            color: white;
+        }
+
         .social-links {
             ul {
                 display: flex;
+
                 li {
                     margin: 3rem 0.5rem;
                     list-style: none;

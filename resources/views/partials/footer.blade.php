@@ -51,9 +51,8 @@
     </div>
     <div class="footer-bottom">
       <div class="container">
-        <button>sign-up now!</button>
+        <button class="sign-up_button">sign-up now!</button>
         <div class="social-links">
-          <h2>Follow Us</h2>
           <ul>
             <li>
               <a href="https://www.facebook.com/dc">

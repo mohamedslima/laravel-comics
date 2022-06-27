@@ -44,7 +44,7 @@ header nav li:hover a {
   background-image: url("/images/footer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 4rem;
+  padding: 4rem 0;
 }
 
 .footer-top .container {
@@ -97,7 +97,11 @@ header nav li:hover a {
   display: flex;
 }
 
-.footer-bottom .container .social-links h2 {
+.footer-bottom .container button.sign-up_button {
+  padding: 1.2rem 1.7rem;
+  border-color: blue;
+  text-transform: uppercase;
+  background-color: #303030;
   color: white;
 }
 
