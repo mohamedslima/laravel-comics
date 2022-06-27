@@ -1,1 +1,13 @@
-//
+@import "./partials/header";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.jumbo-container {
+    height: 400px;
+    background-image: url(../../public/images/jumbotron.jpg);
+    background-size: cover;
+}
