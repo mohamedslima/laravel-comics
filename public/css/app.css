@@ -19,7 +19,7 @@ header nav li {
   display: inline-block;
   margin: 0 1rem;
   text-transform: uppercase;
-  line-height: 120px;
+  line-height: 145px;
   border-bottom: 5px solid transparent;
   cursor: pointer;
 }
@@ -38,6 +38,76 @@ header nav li:hover {
 header nav li.active a,
 header nav li:hover a {
   color: #0282f9;
+}
+
+.footer-top {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4rem;
+}
+
+.footer-top .container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-top .link-list {
+  display: flex;
+}
+
+.footer-top .link-list__col {
+  margin-right: 3rem;
+}
+
+.footer-top .link-list__col h3 {
+  color: white;
+}
+
+.footer-top li {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.footer-top li a {
+  color: grey;
+  text-decoration: none;
+}
+
+.footer-top li:hover {
+  color: #0282f9;
+  cursor: pointer;
+}
+
+.footer-top img {
+  width: 350px;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  height: 150px;
+}
+
+.footer-bottom .container {
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer-bottom .container .social-links h2 {
+  color: white;
+}
+
+.footer-bottom .container .social-links ul {
+  display: flex;
+}
+
+.footer-bottom .container .social-links ul li {
+  margin: 3rem 0.5rem;
+  list-style: none;
 }
 
 * {

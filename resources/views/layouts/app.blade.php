@@ -15,6 +15,8 @@
   <div class="jumbo-container">
   </div>
 
+  @include('partials.footer')
+
 
 </body>
 
