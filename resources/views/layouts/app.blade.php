@@ -14,6 +14,9 @@
 
   <div class="jumbo-container">
   </div>
+  <main>
+    @yield('main_content')
+  </main>
 
   @include('partials.footer')
 
