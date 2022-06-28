@@ -126,3 +126,28 @@ div.jumbo-container {
   background-size: cover;
 }
 
+div.bg-main {
+  background-color: rgba(0, 0, 0, 0.893);
+}
+
+div.bg-main div.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+div.bg-main div.container div.comics-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.bg-main div.container div.comics-list div.comics-card {
+  width: calc(20% - 50px);
+  padding-bottom: 1.5rem;
+}
+
+div.bg-main div.container div.comics-list div.comics-card h3 a {
+  color: white;
+  text-decoration: none;
+}
+

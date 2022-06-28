@@ -12,3 +12,27 @@ div.jumbo-container {
     background-image: url('../images/jumbotron.jpg');
     background-size: cover;
 }
+
+div.bg-main {
+    background-color: rgba(0, 0, 0, 0.893);
+    div.container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 3rem 0;
+        div.comics-list {
+            display: flex;
+            flex-wrap: wrap;
+
+            div.comics-card {
+                width: calc(100% / 5 - 50px);
+                padding-bottom: 1.5rem;
+                h3 {
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
